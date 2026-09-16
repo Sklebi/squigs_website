@@ -502,15 +502,21 @@ hr{
 
 ::-webkit-scrollbar{
     width: .5em;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 ::-webkit-scrollbar-track{
     background: var(--scrollbar);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 /* shows you where you are on the page */ 
 ::-webkit-scrollbar-thumb{
     background: var(--thumb);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
@@ -679,4 +685,40 @@ hr{
         word-break: break-word;
         word-break: break-word;
     }
+}
+
+#ireneresume{
+    text-decoration: none;
+    color: rgb(77, 185, 253);
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#ireneresume:hover{
+    color: orange;
+}
+
+#davidresume{
+    text-decoration: none;
+    color: rgb(253, 77, 77);
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#davidresume:hover{
+    color: rgb(77, 185, 253);
+}
+
+#witmanresume{
+    text-decoration: none;
+    color: rgb(253, 146, 217);
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#witmanresume:hover{
+    color: rgb(255, 0, 170);
 }
