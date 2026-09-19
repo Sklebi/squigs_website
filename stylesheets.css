@@ -1,3 +1,5 @@
+
+
 :root{
     --header-color: #474746;
     --white: white;
@@ -61,6 +63,9 @@
 
 }
 
+.fa-burger, .fa-face-smile-beam, .fa-glass-water, .fa-star{
+    color: var(--rocket);
+}
 html, body {
   margin: 0;
   height: 100%;
