@@ -1,5 +1,3 @@
-
-
 :root{
     --header-color: #474746;
     --white: white;
@@ -447,17 +445,19 @@ button[data-modal-target] svg {
     background-color: var(--projectsblue);
     height: 600px;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
-.hudson{
-    max-height: 320px;
+.hudson, .terminalgames{
+    margin-bottom: 30px; 
+}
+
+img.hudson, img.terminalgames{
+    max-height: 100%;
     width: auto;
     object-fit: contain;
-    padding: 0px;
-    margin: 0;
-    display: block;
-    margin-bottom: -60px;
     user-select: none;
+    margin-top: 35px;
 }
 
 .projectpics{
@@ -470,10 +470,36 @@ button[data-modal-target] svg {
     width: auto;
 }
 
-.projectdescription{
-    margin: 50px;
+.terminalgamespics{
+    height: 250px;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
 }
 
+#g1, #g2{ 
+    border: 3px solid var(--hudsonborder);
+}
+
+.projectdescription{
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#githublink{
+    font-family: 'Cascadia Code';
+    color: var(--rocket);
+    text-decoration: none;
+}
+
+#githublink:hover{
+    border-bottom: 2px solid var(--rocket);
+
+}
 .projectheader{
     font-family: 'Consolas';
     color: var(--headertext);
