@@ -448,7 +448,7 @@ button[data-modal-target] svg {
 
 #projects{
     background-color: var(--projectsblue);
-    height: 600px;
+    height: 550px;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -485,7 +485,7 @@ img.hudson, img.terminalgames{
     justify-content: center;
 }
 
-#g1, #g2{ 
+#g1, #g2, #g3, #g4{ 
     border: 3px solid var(--hudsonborder);
 }
 
