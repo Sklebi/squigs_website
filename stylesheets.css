@@ -453,6 +453,10 @@ button[data-modal-target] svg {
     overflow-x: hidden;
 }
 
+.sterlingenginepics{
+    user-select: none;
+}
+
 .hudson, .terminalgames{
     margin-bottom: 30px; 
 }
