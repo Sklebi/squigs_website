@@ -451,6 +451,7 @@ button[data-modal-target] svg {
     height: 550px;
     overflow-y: auto;
     overflow-x: hidden;
+    
 }
 
 .sterlingenginepics{
@@ -491,6 +492,7 @@ img.hudson, img.terminalgames{
 
 #g1, #g2, #g3, #g4{ 
     border: 3px solid var(--hudsonborder);
+    user-select: none;
 }
 
 .projectdescription{
@@ -647,6 +649,31 @@ hr{
 #irenebody{
     overflow-y: auto;
 }
+
+
+#nugget{
+    height: auto;
+    width: 150px;
+    float: right; 
+    margin-top: 90px;
+    margin-right: 70px;
+
+}
+
+.irenedesc h3{
+    white-space: nowrap;
+}
+
+
+#shark{
+    height: auto;
+    width: 300px;
+    float: right; 
+    margin-top: 90px;
+    margin-right: 60px;
+}
+
+
 
 #irenehr{
     border-color:var(--nicegrey);
